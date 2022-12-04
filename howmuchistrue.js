@@ -7,11 +7,13 @@
 
 // countTrue([]) ➞ 0
 
-let arr = countTrue([true, false, false, true, false])
+// let arr = countTrue([true, false, false, true, false])
 
 function countTrue(arr) {
-	// arr.sort(true)
+let array = countTrue([true, false, false, true, false])
+
     for(let i=0; i < arr.length; i++){
-     return arr.sort(true)
+     return array.sort([true])
     }
-}console.log(arr)
+    
+}console.log(array())
